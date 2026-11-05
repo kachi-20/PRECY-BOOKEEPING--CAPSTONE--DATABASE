@@ -1,12 +1,12 @@
--- Service Management Database
+-- Precy Bookkeeping Database
 -- Based on the supplied ERD image.
 -- Target: MySQL 8.0 / contemporary XAMPP MariaDB (InnoDB, utf8mb4).
 -- Import this file in phpMyAdmin. It creates the database and includes fictional test data.
 -- This script does not DROP an existing database or tables.
 
-CREATE DATABASE IF NOT EXISTS service_management_db
+CREATE DATABASE IF NOT EXISTS precy_bookkeeping_db
   CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
-USE service_management_db;
+USE precy_bookkeeping_db;
 SET NAMES utf8mb4;
 SET FOREIGN_KEY_CHECKS = 1;
 
